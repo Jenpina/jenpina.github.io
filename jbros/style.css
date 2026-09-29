@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#logo{
+    width: 10%;
+    height: 10%;
+    margin: 10xp;
+}
+
+header {
+    background-color: ghostwhite;
+    color: black;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+}
+
+#links li {
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid white;
+}
+
+#links li:hover {
+    background-color: white;
+}
+
+#links a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background-color: lightseagreen;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+section {
+    padding: 20px;
+}
+
+table, th, td, caption {
+    border-collapse: collapse;
+    border: 2px solid lightseagreen;
+    padding: 30px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+caption {
+    font-size: 20px;
+background-color: lightseagreen;
+color: white;
+}
+
+td {
+    text-align: center;
+}
+
+.facultyimg {
+    width: 100px;
+    height: 100px;
+    border: 1px solid ghostwhite;
+    border-radius: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+dd {
+    padding-bottom: 20px;
+}
